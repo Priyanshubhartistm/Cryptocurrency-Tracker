@@ -1,0 +1,235 @@
+.crypto-detail-page {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.crypto-header {
+  margin-bottom: 30px;
+}
+
+.crypto-header h1 {
+  font-size: 32px;
+  color: #0ea5e9;
+  margin-bottom: 10px;
+}
+
+.crypto-description {
+  color: #6b7280;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.chart-container {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+}
+
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.chart-header h2 {
+  font-size: 24px;
+  color: #0ea5e9;
+}
+
+.time-filters {
+  display: flex;
+  gap: 10px;
+}
+
+.time-select {
+  padding: 8px 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.time-select:hover {
+  border-color: #0ea5e9;
+}
+
+.current-price-info {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.price-change {
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.price-change.positive {
+  background: #dcfce7;
+  color: #16a34a;
+}
+
+.price-change.negative {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+.current-price {
+  color: #1f2937;
+}
+
+.stats-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.stats-column {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.stats-column h3 {
+  font-size: 22px;
+  color: #1f2937;
+  margin-bottom: 15px;
+}
+
+.stats-description {
+  color: #6b7280;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.stat-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 0;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.stat-row:last-child {
+  border-bottom: none;
+}
+
+.stat-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #4b5563;
+  font-size: 15px;
+}
+
+.stat-icon {
+  font-size: 18px;
+}
+
+.stat-value {
+  font-weight: 700;
+  color: #1f2937;
+  font-size: 16px;
+}
+
+.description-section {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+}
+
+.description-section h3 {
+  font-size: 22px;
+  color: #0ea5e9;
+  margin-bottom: 15px;
+}
+
+.description-text {
+  color: #4b5563;
+  line-height: 1.8;
+  font-size: 15px;
+}
+
+.description-text a {
+  color: #0ea5e9;
+  text-decoration: none;
+}
+
+.description-text a:hover {
+  text-decoration: underline;
+}
+
+.links-section {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.links-section h3 {
+  font-size: 22px;
+  color: #0ea5e9;
+  margin-bottom: 20px;
+}
+
+.links-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.link-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 20px;
+  background: linear-gradient(135deg, #f9fafb 0%, #ffffff 100%);
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #1f2937;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.link-item:hover {
+  border-color: #0ea5e9;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(14, 165, 233, 0.1);
+}
+
+@media (max-width: 768px) {
+  .stats-section {
+    grid-template-columns: 1fr;
+  }
+
+  .chart-header {
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+  }
+
+  .current-price-info {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  .links-grid {
+    grid-template-columns: 1fr;
+  }
+}
