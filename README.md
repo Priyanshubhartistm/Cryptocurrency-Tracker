@@ -150,55 +150,6 @@ npm run preview
 yarn preview
 ```
 
----
-
-## 📁 Project Structure
-
-```
-cryptoverse/
-├── index.html                      # HTML entry point
-├── package.json                    # Dependencies and scripts
-├── vite.config.js                  # Vite configuration
-│
-└── src/
-    ├── main.jsx                    # Application entry point
-    ├── App.jsx                     # Main App component with routing
-    ├── App.css                     # Global styles
-    │
-    └── components/
-        ├── HomePage.jsx            # Home page component
-        ├── CryptoDetailPage.jsx    # Individual crypto detail page
-        ├── CryptoDetailPage.css    # Detail page styles
-        ├── CryptocurrenciesPage.jsx # All cryptos list page
-        ├── ExchangesPage.jsx       # Exchanges list page
-        └── NewsPage.jsx            # News and updates page
-```
-
-## 🚀 Deployment
-
-### Deploy to Vercel
-
-1. Push your code to GitHub
-2. Go to [vercel.com](https://vercel.com)
-3. Click "New Project"
-4. Import your repository
-5. Click "Deploy"
-
-### Deploy to Netlify
-
-1. Build the project: `npm run build`
-2. Go to [netlify.com](https://netlify.com)
-3. Drag and drop the `dist` folder
-4. Your site is live!
-
-### Deploy to GitHub Pages
-
-```bash
-npm run build
-npx gh-pages -d dist
-```
-
----
 
 ## 🤝 Contributing
 
