@@ -9,7 +9,7 @@
 
   **A modern, real-time cryptocurrency tracking application built with React**
 
-  [Live Demo](https://priyanshubhartistm.github.io/Cryptocurrency-App/) • [Features](#-features) • [Installation](#-installation) • [Usage](#-usage)
+  [Live Demo](https://priyanshubhartistm.github.io/Cryptocurrency-Tracker/) • [Features](#-features) • [Installation](#-installation) • [Usage](#-usage)
 
 </div>
 
