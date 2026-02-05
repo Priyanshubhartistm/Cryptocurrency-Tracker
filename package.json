@@ -2,6 +2,11 @@
   "name": "cryptoverse",
   "version": "1.0.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Priyanshubhartistm/Cryptocurrency-Tracker.git"
+  },
+  "homepage": "https://github.com/Priyanshubhartistm/Cryptocurrency-Tracker",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
